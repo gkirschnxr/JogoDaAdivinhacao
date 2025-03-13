@@ -60,7 +60,7 @@ namespace JogoDaAdivinhacao.ConsoleApp
                     if (numeroDigitado == numeroSecreto)
                     {
                         Console.WriteLine("-------------------------------------------------");
-                        Console.WriteLine($"Você acertou o número secreto em {totalDeTentativas} tentativas! Parabéns!");
+                        Console.WriteLine($"Você acertou o número secreto em {tentativa} tentativas! Parabéns!");
                         Console.WriteLine("-------------------------------------------------");
 
                         break;
